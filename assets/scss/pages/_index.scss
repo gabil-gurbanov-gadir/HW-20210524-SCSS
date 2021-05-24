@@ -1,0 +1,19 @@
+.test1{
+    @include boreder-primary($color-secondary, 5%);
+    background-color: $color-primary;
+    p{
+        color: $color-secondary;
+        font-size: 20px;
+        padding: 20px 15px;
+    }
+}
+
+.test2{
+    @include boreder-primary($color-tertiary, 8%);
+    background-color: $color-quaternary;
+    p{
+        color: $color-quinary;
+        font-size: 20px;
+        padding: 20px 15px;
+    }
+}
